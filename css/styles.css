@@ -401,8 +401,10 @@ footer ul {
 }
 
 .profile-pic {
-  width: 40%;
-  border-radius: 10%;
+  width: 400%;
+  border-radius: 30%;
+  position: relative;
+  overflow: hidden;
 }
 
 .flex-box-for-about-me {
@@ -415,5 +417,8 @@ footer ul {
   display: flex;
   justify-content: center;
   background-color: var(--black);
-  padding: .5 rem
+}
+.tech-stack2 {
+  padding: 2rem;
+  /* color: var(--black); */
 }
