@@ -401,10 +401,10 @@ footer ul {
 }
 
 .profile-pic {
-  width: 400%;
+  width: 25%;
   border-radius: 30%;
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
 }
 
 .flex-box-for-about-me {
