@@ -401,10 +401,8 @@ footer ul {
 }
 
 .profile-pic {
-  width: 25%;
-  border-radius: 30%;
-  /* position: relative;
-  overflow: hidden; */
+  width: 27%;
+  border-radius: 10%;
 }
 
 .flex-box-for-about-me {
@@ -416,9 +414,25 @@ footer ul {
 .tech-stack {
   display: flex;
   justify-content: center;
-  background-color: var(--black);
+  color: var(--dkblue);
+  /* padding-left: 9%; */
 }
 .tech-stack2 {
   padding: 2rem;
   /* color: var(--black); */
+}
+
+.imgFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.bigger-text {
+  font-size: 200%;
+  color: var(--dkblue);
+}
+
+.about-me-title {
+  display: flex;
+  justify-content: center;
 }
