@@ -316,7 +316,7 @@ footer ul {
 
 /*about me*/
 .light-blue {
-  background-color: var(--light-blue);
+  background-color: #b589ef;
 }
 
 .no-bullet-points {
@@ -455,3 +455,4 @@ footer ul {
 .blk {
   color: var(--black)
 }
+
