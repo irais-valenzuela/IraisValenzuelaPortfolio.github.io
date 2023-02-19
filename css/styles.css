@@ -29,6 +29,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--DM-Serif-Display);
+  /* rgb(84, 84, 128) */
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
@@ -48,7 +49,7 @@ a:hover {
 }
 /* background-color divs */
 .section-plum {
-  background-color: var(--plum);
+  background-color: var(--dkblue);
 }
 
 .gradient {
@@ -107,7 +108,7 @@ h3 {
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0;
-  background-color: var(--plum);
+  background-color: var(--dkblue);
   font-size: 1.5rem;
   color: var(--white);
   font-family: var(--Cardo);
@@ -316,7 +317,7 @@ footer ul {
 
 /*about me*/
 .light-blue {
-  background-color: #b589ef;
+  background-color:var(--dkblue);
 }
 
 .no-bullet-points {
@@ -433,8 +434,8 @@ footer ul {
 }
 
 .about-me-title {
-  display: flex;
-  justify-content: center;
+ text-align: center;
+ color: white
 }
 
 .slighty-bigger-font {
