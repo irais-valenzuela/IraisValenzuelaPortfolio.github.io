@@ -428,14 +428,12 @@ footer ul {
   justify-content: center;
 }
 
-.bigger-text {
-  font-size: 200%;
-  color: var(--dkblue);
-}
 
 .about-me-title {
  text-align: center;
- color: white
+ color: white;
+ font-size: 45px;
+ margin-top: 2rem;
 }
 
 .slighty-bigger-font {
