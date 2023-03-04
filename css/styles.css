@@ -10,7 +10,8 @@
   --font-size: 1.3rem;
   --light-blue: #6bb1ff;
   --DM-Serif-Display: "DM Serif Display", "serif";
-  --Cardo: "Cardo", serif;
+  --Poppins: "Poppins", "serif";
+  --Cardo: "Cardo", "serif";
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Cardo&family=DM+Serif+Display&display=swap");
@@ -28,8 +29,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--DM-Serif-Display);
-  /* rgb(84, 84, 128) */
+  font-family: var(--Poppins);
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
@@ -64,7 +64,7 @@ a:hover {
 
 .section-blue {
   background-color: var(--dkblue);
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
 }
 
 h1,
@@ -86,11 +86,11 @@ h3 {
 }
 
 #intro .name {
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
 }
 
 .name span {
-  font-family: var(--DM-Serif-Display);
+  font-family: var(--Poppins);
   font-size: 4rem;
   color: var(--yellow);
   display: block;
@@ -111,7 +111,7 @@ h3 {
   background-color: var(--dkblue);
   font-size: 1.5rem;
   color: var(--white);
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
 }
 
 #contact p:last-child {
@@ -131,13 +131,13 @@ h3 {
 
 /* navbar */
 nav {
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
   font-size: 80%;
   padding: 1rem;
 }
 
 nav h1 a {
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
 }
 nav ul {
   list-style-type: none;
@@ -184,7 +184,7 @@ nav [class*="fa-"]:hover {
   padding: 0.5rem;
   border-radius: 5px;
   text-decoration: none;
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
 }
 
 .button:hover {
@@ -244,7 +244,7 @@ footer ul {
 
 #projects h4 {
   font-size: 1rem;
-  font-family: var(--DM-Serif-Display);
+  font-family: var(--Poppins);
   margin: 0;
 }
 
@@ -331,11 +331,11 @@ footer ul {
 .font-for-heading1 {
   padding-top: 2rem;
   padding-bottom: 0.1rem;
-  font-family: var(--DM-Serif-Display);
+  font-family: var(--Poppins);
 }
 
 .just-the-highlights {
-  font-family: var(--DM-Serif-Display);
+  font-family: var(--Poppins);
   color: var(--dkblue);
 }
 
@@ -346,7 +346,7 @@ footer ul {
   color: var(--white);
   font-size: 1rem;
   line-height: 1.5;
-  font-family: var(--Cardo);
+  font-family: var(--Poppins);
 }
 
 @media (min-width: 550px) {
@@ -464,4 +464,8 @@ footer ul {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.tech-used {
+  color: var(--yellow)
 }
