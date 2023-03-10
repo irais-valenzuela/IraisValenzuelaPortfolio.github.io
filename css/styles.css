@@ -7,7 +7,7 @@
   --plum: #4b0d49;
   --black: #0d0c0c;
   --dkblue: #0d314b;
-  --font-size: 1.3rem;
+  --font-size: 1rem;
   --light-blue: #6bb1ff;
   --DM-Serif-Display: "DM Serif Display", "serif";
   --Poppins: "Poppins", "serif";
@@ -91,13 +91,13 @@ h3 {
 
 .name span {
   font-family: var(--Poppins);
-  font-size: 4rem;
+  font-size: 3.3rem;
   color: var(--yellow);
   display: block;
 }
 
 #intro h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: normal;
 }
 
