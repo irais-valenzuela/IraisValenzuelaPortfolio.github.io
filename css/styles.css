@@ -486,7 +486,7 @@ footer ul {
 
 .tech-stack-names-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -498,4 +498,10 @@ footer ul {
 .pink-icons {
   color: var(--grapefruit);
   font-size: 35px;
+}
+
+.tech-stack-names-flex p {
+  background-color: var( --light-blue);
+  padding: 8px;
+  border-radius: 25px;
 }
