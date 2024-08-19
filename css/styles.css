@@ -403,7 +403,9 @@ footer ul {
 }
 
 .profile-pic {
-  width: 25%;
+  margin-top: 50px;
+  width: 350px;
+  height: 350px;
   border-radius: 25px;
   border: 2px solid var(--grapefruit);
 }
@@ -543,4 +545,9 @@ footer ul {
     gap: 1rem;
     margin: 2rem
   }
+
+}
+
+.kargo {
+  color: white;
 }
